@@ -90,6 +90,7 @@ chrome.runtime.onConnect.addListener(function(port) {
         var k, ados_explain = JSON.parse(${JSON.stringify(data)});
         for (k in ados_explain) {
           window.console.group("Ados Explainer -- DIV " + k + ":");
+          window.console.log("Placement:", ados_explain[k].placement);
           window.console.log("Buckets:", ados_explain[k].buckets);
           window.console.log("RTB Log:", ados_explain[k].rtb_log);
           window.console.table(ados_explain[k].results);

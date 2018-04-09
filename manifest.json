@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Ados Explainer",
   "description": "Enables extended debug info for Adzerk ados requests.",
-  "version": "1.2",
+  "version": "1.3",
   "options_page": "options.html",
   "browser_action": {
     "default_title": "Ados Explainer"
